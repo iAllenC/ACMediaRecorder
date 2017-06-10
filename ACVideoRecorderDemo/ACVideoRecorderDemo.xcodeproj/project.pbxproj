@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F22C8951EEB89A6001E6943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8941EEB89A6001E6943 /* main.m */; };
+		9F22C8981EEB89A6001E6943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8971EEB89A6001E6943 /* AppDelegate.m */; };
+		9F22C89E1EEB89A6001E6943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F22C89C1EEB89A6001E6943 /* Main.storyboard */; };
+		9F22C8A01EEB89A6001E6943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F22C89F1EEB89A6001E6943 /* Assets.xcassets */; };
+		9F22C8A31EEB89A6001E6943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F22C8A11EEB89A6001E6943 /* LaunchScreen.storyboard */; };
+		9F22C8AE1EEB89A6001E6943 /* ACVideoRecorderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8AD1EEB89A6001E6943 /* ACVideoRecorderDemoTests.m */; };
+		9F22C8B91EEB89A6001E6943 /* ACVideoRecorderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8B81EEB89A6001E6943 /* ACVideoRecorderDemoUITests.m */; };
+		9F22C8D31EEB89CB001E6943 /* ACCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8C81EEB89CB001E6943 /* ACCamPreviewView.m */; };
+		9F22C8D41EEB89CB001E6943 /* ACMediaRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8CA1EEB89CB001E6943 /* ACMediaRecorder.m */; };
+		9F22C8D51EEB89CB001E6943 /* ACMediaRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8CC1EEB89CB001E6943 /* ACMediaRecordViewController.m */; };
+		9F22C8D61EEB89CB001E6943 /* ACRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8CE1EEB89CB001E6943 /* ACRecordButton.m */; };
+		9F22C8D71EEB89CB001E6943 /* ACVideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8D01EEB89CB001E6943 /* ACVideoPlayView.m */; };
+		9F22C8D81EEB89CB001E6943 /* ACVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8D21EEB89CB001E6943 /* ACVideoWriter.m */; };
+		9F22C8DB1EEBBB36001E6943 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F22C8DA1EEBBB36001E6943 /* CoreMedia.framework */; };
+		9F22C8DE1EEBC812001E6943 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8DD1EEBC812001E6943 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F22C8AA1EEB89A6001E6943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F22C8881EEB89A6001E6943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F22C88F1EEB89A6001E6943;
+			remoteInfo = ACVideoRecorderDemo;
+		};
+		9F22C8B51EEB89A6001E6943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F22C8881EEB89A6001E6943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F22C88F1EEB89A6001E6943;
+			remoteInfo = ACVideoRecorderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F22C8901EEB89A6001E6943 /* ACVideoRecorderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACVideoRecorderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F22C8941EEB89A6001E6943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F22C8961EEB89A6001E6943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F22C8971EEB89A6001E6943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F22C89D1EEB89A6001E6943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F22C89F1EEB89A6001E6943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F22C8A21EEB89A6001E6943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F22C8A41EEB89A6001E6943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F22C8A91EEB89A6001E6943 /* ACVideoRecorderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACVideoRecorderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F22C8AD1EEB89A6001E6943 /* ACVideoRecorderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACVideoRecorderDemoTests.m; sourceTree = "<group>"; };
+		9F22C8AF1EEB89A6001E6943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F22C8B41EEB89A6001E6943 /* ACVideoRecorderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACVideoRecorderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F22C8B81EEB89A6001E6943 /* ACVideoRecorderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACVideoRecorderDemoUITests.m; sourceTree = "<group>"; };
+		9F22C8BA1EEB89A6001E6943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F22C8C71EEB89CB001E6943 /* ACCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCamPreviewView.h; sourceTree = "<group>"; };
+		9F22C8C81EEB89CB001E6943 /* ACCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCamPreviewView.m; sourceTree = "<group>"; };
+		9F22C8C91EEB89CB001E6943 /* ACMediaRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaRecorder.h; sourceTree = "<group>"; };
+		9F22C8CA1EEB89CB001E6943 /* ACMediaRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMediaRecorder.m; sourceTree = "<group>"; };
+		9F22C8CB1EEB89CB001E6943 /* ACMediaRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaRecordViewController.h; sourceTree = "<group>"; };
+		9F22C8CC1EEB89CB001E6943 /* ACMediaRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMediaRecordViewController.m; sourceTree = "<group>"; };
+		9F22C8CD1EEB89CB001E6943 /* ACRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRecordButton.h; sourceTree = "<group>"; };
+		9F22C8CE1EEB89CB001E6943 /* ACRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACRecordButton.m; sourceTree = "<group>"; };
+		9F22C8CF1EEB89CB001E6943 /* ACVideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVideoPlayView.h; sourceTree = "<group>"; };
+		9F22C8D01EEB89CB001E6943 /* ACVideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVideoPlayView.m; sourceTree = "<group>"; };
+		9F22C8D11EEB89CB001E6943 /* ACVideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVideoWriter.h; sourceTree = "<group>"; };
+		9F22C8D21EEB89CB001E6943 /* ACVideoWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVideoWriter.m; sourceTree = "<group>"; };
+		9F22C8DA1EEBBB36001E6943 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9F22C8DC1EEBC812001E6943 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../../.Trash/ViewController.h; sourceTree = "<group>"; };
+		9F22C8DD1EEBC812001E6943 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../../.Trash/ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F22C88D1EEB89A6001E6943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22C8DB1EEBBB36001E6943 /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F22C8A61EEB89A6001E6943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F22C8B11EEB89A6001E6943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F22C8871EEB89A6001E6943 = {
+			isa = PBXGroup;
+			children = (
+				9F22C8921EEB89A6001E6943 /* ACVideoRecorderDemo */,
+				9F22C8AC1EEB89A6001E6943 /* ACVideoRecorderDemoTests */,
+				9F22C8B71EEB89A6001E6943 /* ACVideoRecorderDemoUITests */,
+				9F22C8911EEB89A6001E6943 /* Products */,
+				9F22C8D91EEBBB35001E6943 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F22C8911EEB89A6001E6943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F22C8901EEB89A6001E6943 /* ACVideoRecorderDemo.app */,
+				9F22C8A91EEB89A6001E6943 /* ACVideoRecorderDemoTests.xctest */,
+				9F22C8B41EEB89A6001E6943 /* ACVideoRecorderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F22C8921EEB89A6001E6943 /* ACVideoRecorderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9F22C8961EEB89A6001E6943 /* AppDelegate.h */,
+				9F22C8971EEB89A6001E6943 /* AppDelegate.m */,
+				9F22C8DC1EEBC812001E6943 /* ViewController.h */,
+				9F22C8DD1EEBC812001E6943 /* ViewController.m */,
+				9F22C8C61EEB89CB001E6943 /* AClVideoRecord */,
+				9F22C89C1EEB89A6001E6943 /* Main.storyboard */,
+				9F22C89F1EEB89A6001E6943 /* Assets.xcassets */,
+				9F22C8A11EEB89A6001E6943 /* LaunchScreen.storyboard */,
+				9F22C8A41EEB89A6001E6943 /* Info.plist */,
+				9F22C8931EEB89A6001E6943 /* Supporting Files */,
+			);
+			path = ACVideoRecorderDemo;
+			sourceTree = "<group>";
+		};
+		9F22C8931EEB89A6001E6943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F22C8941EEB89A6001E6943 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F22C8AC1EEB89A6001E6943 /* ACVideoRecorderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F22C8AD1EEB89A6001E6943 /* ACVideoRecorderDemoTests.m */,
+				9F22C8AF1EEB89A6001E6943 /* Info.plist */,
+			);
+			path = ACVideoRecorderDemoTests;
+			sourceTree = "<group>";
+		};
+		9F22C8B71EEB89A6001E6943 /* ACVideoRecorderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F22C8B81EEB89A6001E6943 /* ACVideoRecorderDemoUITests.m */,
+				9F22C8BA1EEB89A6001E6943 /* Info.plist */,
+			);
+			path = ACVideoRecorderDemoUITests;
+			sourceTree = "<group>";
+		};
+		9F22C8C61EEB89CB001E6943 /* AClVideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				9F22C8C71EEB89CB001E6943 /* ACCamPreviewView.h */,
+				9F22C8C81EEB89CB001E6943 /* ACCamPreviewView.m */,
+				9F22C8C91EEB89CB001E6943 /* ACMediaRecorder.h */,
+				9F22C8CA1EEB89CB001E6943 /* ACMediaRecorder.m */,
+				9F22C8CB1EEB89CB001E6943 /* ACMediaRecordViewController.h */,
+				9F22C8CC1EEB89CB001E6943 /* ACMediaRecordViewController.m */,
+				9F22C8CD1EEB89CB001E6943 /* ACRecordButton.h */,
+				9F22C8CE1EEB89CB001E6943 /* ACRecordButton.m */,
+				9F22C8CF1EEB89CB001E6943 /* ACVideoPlayView.h */,
+				9F22C8D01EEB89CB001E6943 /* ACVideoPlayView.m */,
+				9F22C8D11EEB89CB001E6943 /* ACVideoWriter.h */,
+				9F22C8D21EEB89CB001E6943 /* ACVideoWriter.m */,
+			);
+			path = AClVideoRecord;
+			sourceTree = "<group>";
+		};
+		9F22C8D91EEBBB35001E6943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F22C8DA1EEBBB36001E6943 /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F22C88F1EEB89A6001E6943 /* ACVideoRecorderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F22C8BD1EEB89A6001E6943 /* Build configuration list for PBXNativeTarget "ACVideoRecorderDemo" */;
+			buildPhases = (
+				9F22C88C1EEB89A6001E6943 /* Sources */,
+				9F22C88D1EEB89A6001E6943 /* Frameworks */,
+				9F22C88E1EEB89A6001E6943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACVideoRecorderDemo;
+			productName = ACVideoRecorderDemo;
+			productReference = 9F22C8901EEB89A6001E6943 /* ACVideoRecorderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F22C8A81EEB89A6001E6943 /* ACVideoRecorderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F22C8C01EEB89A6001E6943 /* Build configuration list for PBXNativeTarget "ACVideoRecorderDemoTests" */;
+			buildPhases = (
+				9F22C8A51EEB89A6001E6943 /* Sources */,
+				9F22C8A61EEB89A6001E6943 /* Frameworks */,
+				9F22C8A71EEB89A6001E6943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F22C8AB1EEB89A6001E6943 /* PBXTargetDependency */,
+			);
+			name = ACVideoRecorderDemoTests;
+			productName = ACVideoRecorderDemoTests;
+			productReference = 9F22C8A91EEB89A6001E6943 /* ACVideoRecorderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F22C8B31EEB89A6001E6943 /* ACVideoRecorderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F22C8C31EEB89A6001E6943 /* Build configuration list for PBXNativeTarget "ACVideoRecorderDemoUITests" */;
+			buildPhases = (
+				9F22C8B01EEB89A6001E6943 /* Sources */,
+				9F22C8B11EEB89A6001E6943 /* Frameworks */,
+				9F22C8B21EEB89A6001E6943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F22C8B61EEB89A6001E6943 /* PBXTargetDependency */,
+			);
+			name = ACVideoRecorderDemoUITests;
+			productName = ACVideoRecorderDemoUITests;
+			productReference = 9F22C8B41EEB89A6001E6943 /* ACVideoRecorderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F22C8881EEB89A6001E6943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Allen;
+				TargetAttributes = {
+					9F22C88F1EEB89A6001E6943 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T7KCDWMB46;
+						ProvisioningStyle = Automatic;
+					};
+					9F22C8A81EEB89A6001E6943 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T7KCDWMB46;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F22C88F1EEB89A6001E6943;
+					};
+					9F22C8B31EEB89A6001E6943 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T7KCDWMB46;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F22C88F1EEB89A6001E6943;
+					};
+				};
+			};
+			buildConfigurationList = 9F22C88B1EEB89A6001E6943 /* Build configuration list for PBXProject "ACVideoRecorderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F22C8871EEB89A6001E6943;
+			productRefGroup = 9F22C8911EEB89A6001E6943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F22C88F1EEB89A6001E6943 /* ACVideoRecorderDemo */,
+				9F22C8A81EEB89A6001E6943 /* ACVideoRecorderDemoTests */,
+				9F22C8B31EEB89A6001E6943 /* ACVideoRecorderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F22C88E1EEB89A6001E6943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22C8A31EEB89A6001E6943 /* LaunchScreen.storyboard in Resources */,
+				9F22C8A01EEB89A6001E6943 /* Assets.xcassets in Resources */,
+				9F22C89E1EEB89A6001E6943 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F22C8A71EEB89A6001E6943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F22C8B21EEB89A6001E6943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F22C88C1EEB89A6001E6943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22C8DE1EEBC812001E6943 /* ViewController.m in Sources */,
+				9F22C8D61EEB89CB001E6943 /* ACRecordButton.m in Sources */,
+				9F22C8D71EEB89CB001E6943 /* ACVideoPlayView.m in Sources */,
+				9F22C8D31EEB89CB001E6943 /* ACCamPreviewView.m in Sources */,
+				9F22C8D51EEB89CB001E6943 /* ACMediaRecordViewController.m in Sources */,
+				9F22C8981EEB89A6001E6943 /* AppDelegate.m in Sources */,
+				9F22C8D81EEB89CB001E6943 /* ACVideoWriter.m in Sources */,
+				9F22C8D41EEB89CB001E6943 /* ACMediaRecorder.m in Sources */,
+				9F22C8951EEB89A6001E6943 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F22C8A51EEB89A6001E6943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22C8AE1EEB89A6001E6943 /* ACVideoRecorderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F22C8B01EEB89A6001E6943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22C8B91EEB89A6001E6943 /* ACVideoRecorderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F22C8AB1EEB89A6001E6943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F22C88F1EEB89A6001E6943 /* ACVideoRecorderDemo */;
+			targetProxy = 9F22C8AA1EEB89A6001E6943 /* PBXContainerItemProxy */;
+		};
+		9F22C8B61EEB89A6001E6943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F22C88F1EEB89A6001E6943 /* ACVideoRecorderDemo */;
+			targetProxy = 9F22C8B51EEB89A6001E6943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F22C89C1EEB89A6001E6943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F22C89D1EEB89A6001E6943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F22C8A11EEB89A6001E6943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F22C8A21EEB89A6001E6943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F22C8BB1EEB89A6001E6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F22C8BC1EEB89A6001E6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F22C8BE1EEB89A6001E6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T7KCDWMB46;
+				INFOPLIST_FILE = ACVideoRecorderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Allen.ACVideoRecorderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F22C8BF1EEB89A6001E6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T7KCDWMB46;
+				INFOPLIST_FILE = ACVideoRecorderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Allen.ACVideoRecorderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F22C8C11EEB89A6001E6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T7KCDWMB46;
+				INFOPLIST_FILE = ACVideoRecorderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Allen.ACVideoRecorderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACVideoRecorderDemo.app/ACVideoRecorderDemo";
+			};
+			name = Debug;
+		};
+		9F22C8C21EEB89A6001E6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T7KCDWMB46;
+				INFOPLIST_FILE = ACVideoRecorderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Allen.ACVideoRecorderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACVideoRecorderDemo.app/ACVideoRecorderDemo";
+			};
+			name = Release;
+		};
+		9F22C8C41EEB89A6001E6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T7KCDWMB46;
+				INFOPLIST_FILE = ACVideoRecorderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Allen.ACVideoRecorderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ACVideoRecorderDemo;
+			};
+			name = Debug;
+		};
+		9F22C8C51EEB89A6001E6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T7KCDWMB46;
+				INFOPLIST_FILE = ACVideoRecorderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Allen.ACVideoRecorderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ACVideoRecorderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F22C88B1EEB89A6001E6943 /* Build configuration list for PBXProject "ACVideoRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F22C8BB1EEB89A6001E6943 /* Debug */,
+				9F22C8BC1EEB89A6001E6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F22C8BD1EEB89A6001E6943 /* Build configuration list for PBXNativeTarget "ACVideoRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F22C8BE1EEB89A6001E6943 /* Debug */,
+				9F22C8BF1EEB89A6001E6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F22C8C01EEB89A6001E6943 /* Build configuration list for PBXNativeTarget "ACVideoRecorderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F22C8C11EEB89A6001E6943 /* Debug */,
+				9F22C8C21EEB89A6001E6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F22C8C31EEB89A6001E6943 /* Build configuration list for PBXNativeTarget "ACVideoRecorderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F22C8C41EEB89A6001E6943 /* Debug */,
+				9F22C8C51EEB89A6001E6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F22C8881EEB89A6001E6943 /* Project object */;
+}
