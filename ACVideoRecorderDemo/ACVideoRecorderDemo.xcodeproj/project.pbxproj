@@ -21,7 +21,7 @@
 		9F22C8D71EEB89CB001E6943 /* ACVideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8D01EEB89CB001E6943 /* ACVideoPlayView.m */; };
 		9F22C8D81EEB89CB001E6943 /* ACVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8D21EEB89CB001E6943 /* ACVideoWriter.m */; };
 		9F22C8DB1EEBBB36001E6943 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F22C8DA1EEBBB36001E6943 /* CoreMedia.framework */; };
-		9F22C8DE1EEBC812001E6943 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C8DD1EEBC812001E6943 /* ViewController.m */; };
+		9F8ABDC11EEBE14C0028473A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ABDC01EEBE14C0028473A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +69,8 @@
 		9F22C8D11EEB89CB001E6943 /* ACVideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVideoWriter.h; sourceTree = "<group>"; };
 		9F22C8D21EEB89CB001E6943 /* ACVideoWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVideoWriter.m; sourceTree = "<group>"; };
 		9F22C8DA1EEBBB36001E6943 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		9F22C8DC1EEBC812001E6943 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../../.Trash/ViewController.h; sourceTree = "<group>"; };
-		9F22C8DD1EEBC812001E6943 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../../.Trash/ViewController.m; sourceTree = "<group>"; };
+		9F8ABDBF1EEBE14C0028473A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F8ABDC01EEBE14C0028473A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +125,8 @@
 			children = (
 				9F22C8961EEB89A6001E6943 /* AppDelegate.h */,
 				9F22C8971EEB89A6001E6943 /* AppDelegate.m */,
-				9F22C8DC1EEBC812001E6943 /* ViewController.h */,
-				9F22C8DD1EEBC812001E6943 /* ViewController.m */,
+				9F8ABDBF1EEBE14C0028473A /* ViewController.h */,
+				9F8ABDC01EEBE14C0028473A /* ViewController.m */,
 				9F22C8C61EEB89CB001E6943 /* AClVideoRecord */,
 				9F22C89C1EEB89A6001E6943 /* Main.storyboard */,
 				9F22C89F1EEB89A6001E6943 /* Assets.xcassets */,
@@ -326,7 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F22C8DE1EEBC812001E6943 /* ViewController.m in Sources */,
+				9F8ABDC11EEBE14C0028473A /* ViewController.m in Sources */,
 				9F22C8D61EEB89CB001E6943 /* ACRecordButton.m in Sources */,
 				9F22C8D71EEB89CB001E6943 /* ACVideoPlayView.m in Sources */,
 				9F22C8D31EEB89CB001E6943 /* ACCamPreviewView.m in Sources */,
@@ -576,6 +576,7 @@
 				9F22C8BF1EEB89A6001E6943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F22C8C01EEB89A6001E6943 /* Build configuration list for PBXNativeTarget "ACVideoRecorderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +585,7 @@
 				9F22C8C21EEB89A6001E6943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F22C8C31EEB89A6001E6943 /* Build configuration list for PBXNativeTarget "ACVideoRecorderDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +594,7 @@
 				9F22C8C51EEB89A6001E6943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
