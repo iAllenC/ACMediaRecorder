@@ -96,11 +96,13 @@
 
 - (void)setLongPressDisabled:(BOOL)longPressDisabled {
     _longPressDisabled = longPressDisabled;
-    if (_longPressDisabled && [self.gestureRecognizers containsObject:self.longPress]) {
-        [self removeGestureRecognizer:self.longPress];
-    } else if (!_longPressDisabled && ![self.gestureRecognizers containsObject:self.longPress]){
-        [self addGestureRecognizer:self.longPress];
-    }
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (self.longPressDisabled && [self.gestureRecognizers containsObject:self.longPress]) {
+            [self removeGestureRecognizer:self.longPress];
+        } else if (!self.longPressDisabled && ![self.gestureRecognizers containsObject:self.longPress]){
+            [self addGestureRecognizer:self.longPress];
+        }
+    });
 }
 
 - (instancetype)initWithFrame:(CGRect)frame duration:(NSTimeInterval)duration {
@@ -152,11 +154,11 @@
         CGFloat targetWidth = weakSelf.frame.size.width - weakSelf.outInset;
         CGRect originFrame =weakSelf.outCircle.frame;
         weakSelf.outCircle.frame = CGRectMake(originFrame.origin.x, originFrame.origin.y, targetWidth, targetWidth);
-        weakSelf.outCircle.center = self.centerCircle.center;
+        weakSelf.outCircle.center = weakSelf.centerCircle.center;
         weakSelf.outCircle.layer.cornerRadius = (weakSelf.frame.size.width - weakSelf.outInset)/2;
         if (weakSelf.outInset <= 0.5) {
             [weakSelf stopExpand];
-            if (completion)completion();
+            if (completion) completion();
         }
     }];
 }

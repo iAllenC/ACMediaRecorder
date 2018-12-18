@@ -127,7 +127,7 @@
 				9F22C8971EEB89A6001E6943 /* AppDelegate.m */,
 				9F8ABDBF1EEBE14C0028473A /* ViewController.h */,
 				9F8ABDC01EEBE14C0028473A /* ViewController.m */,
-				9F22C8C61EEB89CB001E6943 /* AClVideoRecord */,
+				9F22C8C61EEB89CB001E6943 /* ACVideoRecord */,
 				9F22C89C1EEB89A6001E6943 /* Main.storyboard */,
 				9F22C89F1EEB89A6001E6943 /* Assets.xcassets */,
 				9F22C8A11EEB89A6001E6943 /* LaunchScreen.storyboard */,
@@ -163,7 +163,7 @@
 			path = ACVideoRecorderDemoUITests;
 			sourceTree = "<group>";
 		};
-		9F22C8C61EEB89CB001E6943 /* AClVideoRecord */ = {
+		9F22C8C61EEB89CB001E6943 /* ACVideoRecord */ = {
 			isa = PBXGroup;
 			children = (
 				9F22C8C71EEB89CB001E6943 /* ACCamPreviewView.h */,
@@ -179,7 +179,7 @@
 				9F22C8D11EEB89CB001E6943 /* ACVideoWriter.h */,
 				9F22C8D21EEB89CB001E6943 /* ACVideoWriter.m */,
 			);
-			path = AClVideoRecord;
+			path = ACVideoRecord;
 			sourceTree = "<group>";
 		};
 		9F22C8D91EEBBB35001E6943 /* Frameworks */ = {
@@ -257,7 +257,7 @@
 				TargetAttributes = {
 					9F22C88F1EEB89A6001E6943 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = T7KCDWMB46;
+						DevelopmentTeam = 8ULG8GXYJC;
 						ProvisioningStyle = Automatic;
 					};
 					9F22C8A81EEB89A6001E6943 = {
@@ -485,7 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T7KCDWMB46;
+				DEVELOPMENT_TEAM = 8ULG8GXYJC;
 				INFOPLIST_FILE = ACVideoRecorderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -498,7 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T7KCDWMB46;
+				DEVELOPMENT_TEAM = 8ULG8GXYJC;
 				INFOPLIST_FILE = ACVideoRecorderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
